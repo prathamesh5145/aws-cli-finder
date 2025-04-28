@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS CLI Command Finder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center p-6">
+    <h1 class="text-4xl font-bold mb-6 text-blue-700">AWS CLI Command Finder</h1>
+
+    <input 
+        type="text" 
+        id="search" 
+        placeholder="Search AWS Service (e.g., s3, ec2, lambda)..." 
+        class="w-full max-w-2xl px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-lg sticky top-6 z-10 bg-white"
+    >
+
+    <div id="results" class="mt-8 w-full max-w-4xl space-y-4">
+        <!-- Command results will appear here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
