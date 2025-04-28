@@ -1,0 +1,11 @@
+{
+    "s3": ["ls", "cp", "sync", "mb", "rb", "presign"],
+    "ec2": ["describe-instances", "start-instances", "stop-instances", "terminate-instances", "create-key-pair"],
+    "lambda": ["list-functions", "create-function", "update-function-code", "delete-function"],
+    "iam": ["create-user", "list-users", "delete-user", "attach-user-policy"],
+    "dynamodb": ["list-tables", "create-table", "delete-table", "put-item", "get-item"],
+    "ecs": ["list-clusters", "describe-tasks", "run-task", "create-cluster"],
+    "cloudformation": ["create-stack", "update-stack", "delete-stack", "describe-stacks"],
+    "cloudfront": ["create-distribution", "list-distributions", "get-distribution", "delete-distribution"],
+    "rds": ["describe-db-instances", "create-db-instance", "delete-db-instance", "start-db-instance"]
+}
